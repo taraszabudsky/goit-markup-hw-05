@@ -380,14 +380,14 @@
 
 <div id="modal" class="backdrop">
   <div class="modal">
-    <button type="button" class="modal-close-btn">
-      <svg width="24" height="24">
-        <use href="./images/icons.svg#close"></use>
-      </svg>
-    </button>
+    <a href="index.html" class="modal-close-btn">
+  <svg width="8" height="8">
+    <use href="./images/icons.svg#close"></use>
+  </svg>
+</a>
     <p>Leave your contacts and we will call you back</p>
     <form>
-  <div>
+  <div class="modal-form">
     <label for="name">
       Name
     </label>
@@ -397,7 +397,7 @@
     </svg>
   </div>
 
-  <div>
+  <div class="modal-form">
     <label for="phone">
       Phone
     </label>
@@ -407,7 +407,7 @@
     </svg>
   </div>
 
-  <div>
+  <div class="modal-form">
     <label for="email">
       Email
     </label>
@@ -417,21 +417,22 @@
     </svg>
   </div>
 
-  <div>
+  <div class="modal-form">
     <label for="comment">
       Comment
     </label>
     <textarea id="comment" name="user-comment" placeholder="Text input"></textarea>
   </div>
 
-  <div>
+  <div class="checkbox-privacy">
     <label for="checkbox">
-      <input type="checkbox">
-      I accept the terms and conditions of the <a href="https://www.privacypolicyurl.com/" class="privacy-link">Privacy Policy</a>
+      <input type="checkbox" class="checkbox-point">
+      I accept the terms and conditions of the
+      <a href="https://www.privacypolicyurl.com/" class="privacy-link">Privacy Policy</a>
     </label>
   </div>
 
-  <button type="submit">Send</button>
+  <button type="submit" class="modal-submit">Send</button>
 </form>
   </div>
 </div>
