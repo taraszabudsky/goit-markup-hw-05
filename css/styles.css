@@ -824,8 +824,7 @@ padding: 0 0 20px 0;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-point::after {
-  content: '';
+/* .checkbox-point::after {
   position: absolute;
   width: 6px;
   height: 10px;
@@ -834,14 +833,14 @@ padding: 0 0 20px 0;
   transform: rotate(45deg);
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-input:checked + .checkbox-point {
+} */
+/* input:checked + .checkbox-point {
   background-color: #4D5AE5; 
   border-color: #4D5AE5;
 }
 input:checked + .checkbox-point::after {
   opacity: 1;
-}
+} */
 .privacy-link {
   color: #4D5AE5;         
   text-decoration: underline; 
