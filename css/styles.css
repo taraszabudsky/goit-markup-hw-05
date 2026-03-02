@@ -669,6 +669,7 @@ padding: 0 0 20px 0;
   margin: 0;             
   padding: 0; 
   color: #2E2F42;
+  margin-bottom: 16px;
 }
 .modal-close-btn {
   border-radius: 50%;
@@ -793,7 +794,7 @@ padding: 0 0 20px 0;
   line-height: 1.33;           
   letter-spacing: 0.04em;       
   color: #8E8F99;              
-  margin-bottom: 16px;   
+  margin-bottom: 24px;  
 }
 .checkbox-privacy .privacy-link {
   color: #4D5AE5;
@@ -847,7 +848,7 @@ input:checked + .checkbox-point::after {
 .privacy-link {
   color: #4D5AE5;         
   text-decoration: underline; 
-  transition: color 0.25s;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .privacy-link:hover,
 .privacy-link:focus {
