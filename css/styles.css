@@ -643,11 +643,11 @@ padding: 0 0 20px 0;
   visibility: visible;
   pointer-events: auto;
 }
-/* #modal:target {
+#modal:target {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 .modal {
   width: 408px;
   height: 584px;
@@ -748,8 +748,7 @@ padding: 0 0 20px 0;
   border-color: #4D5AE5; 
   outline: none;
 }
-.modal-form input::placeholder,
-.modal-form-textarea textarea::placeholder {
+.modal-form input::placeholder {
   color: #aaa;
   font-size: 14px;
   opacity: 1;
@@ -796,7 +795,7 @@ padding: 0 0 20px 0;
   color: #8E8F99;  
   display: flex;
   align-items: center;
-  margin-top: 0;  
+  margin-top: 16px;  
   margin-bottom: 24px;
               
 }
