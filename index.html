@@ -385,7 +385,7 @@
     <use href="./images/icons.svg#close"></use>
   </svg>
 </button>
-    <p>Leave your contacts and we will call you back</p>
+    <p class="modal-title">Leave your contacts and we will call you back</p>
     <form>
   <div class="modal-form">
     <label for="name">
@@ -425,12 +425,13 @@
   </div>
 
   <div class="checkbox-privacy">
-    <label for="checkbox">
-      <input type="checkbox" class="checkbox-point" name="checkbox">
-      I accept the terms and conditions of the
-      <a href="https://www.privacypolicyurl.com/" class="privacy-link">Privacy Policy</a>
-    </label>
-  </div>
+  <label>
+    <input type="checkbox" name="checkbox" class="visually-hidden" id="privacy-checkbox">
+    <span class="checkbox-point"></span>
+    I accept the terms and conditions of the
+    <a href="https://www.privacypolicyurl.com/" class="privacy-link">Privacy Policy</a>
+  </label>
+</div>
 
   <button type="submit" class="modal-submit">Send</button>
 </form>
