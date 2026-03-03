@@ -470,24 +470,25 @@ color: #404BBF;
 }
 .footer .container {
   display: flex;
-   gap: 120px;
    align-items: baseline;
 }
 .footer .subscribe {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
-.logo-footer-block{
+.logo-footer-block {
+  display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-right: 120px;
 }
 .footer p{
   max-width: 264px;
   margin: 0;
 }
 .logo-footer {
-  display: block;
+  display: flex;
   justify-content: flex-start;
-  margin-bottom: 16px;
+  margin: 0;
 }
 .footer svg{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -501,6 +502,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-right: 80px;
 }
 .social-media-title {
   font-weight: 500;
@@ -525,10 +527,6 @@ img {
   gap: 16px;
   list-style: none;
 }
-.icons-footer a:hover,
-.icons-footer a:focus {
-  background-color: #31d0aa;
-}
 .icons-footer svg {
   fill: #f4f4fd;
   display: block;      
@@ -549,10 +547,6 @@ img {
 .icons-footer a:hover,
 .icons-footer a:focus {
   background-color: #31d0aa; 
-}
-.icons-footer a:hover,
-.icons-footer a:focus {
-  background-color: #31d0aa;
 }
 .icons a svg,
 .icons-footer a svg {
@@ -767,7 +761,7 @@ padding: 0 0 20px 0;
   width: 50px;
   height: 50px;
   pointer-events: none;       
-  fill: #888;
+  fill: #2E2F42;
           
 }
 .modal-form .form-icon {
@@ -822,6 +816,8 @@ padding: 0 0 20px 0;
   color: #FFFFFF;
 }
 .checkbox-icon {
+  width: 100%;
+  height: auto; 
   fill: #FFFFFF;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
