@@ -471,7 +471,7 @@ color: #404BBF;
 .footer .container {
   display: flex;
    align-items: baseline;
-   gap: 80px;
+   gap: 120px;
 }
 .footer .subscribe {
   margin-left: auto;
@@ -480,11 +480,7 @@ color: #404BBF;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* margin-right: 120px; */
-}
-.footer p{
-  max-width: 264px;
-  margin: 0;
+  margin-right: 0;
 }
 .logo-footer {
   display: flex;
@@ -503,7 +499,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* margin-right: 80px; */
+  margin-right: 0;
 }
 .social-media-title {
   font-weight: 500;
@@ -697,7 +693,7 @@ color: #f4f4fd;
 }
 .modal-form {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   font-size: 12px;
   color: #8E8F99;
 }
@@ -712,6 +708,7 @@ color: #f4f4fd;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8E8F99;
+  margin-bottom: 4px;
 }
 .modal-form input {
   position: relative;
@@ -726,6 +723,11 @@ color: #f4f4fd;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2E2F42;
 }
+.modal-form.name, 
+.modal-form.phone,
+.modal-form.email {
+  margin-bottom: 24px; 
+}
 .modal-form textarea{
   width: 100%;
   height: 120px;
@@ -738,6 +740,7 @@ color: #f4f4fd;
   padding: 8px 16px;
   /* margin-bottom: 16px; */
   color: #2E2F42;
+  letter-spacing: 0.04em
 }
 .modal-form input:focus,
 .modal-form textarea:focus {
@@ -854,6 +857,7 @@ input:checked + .checkbox-point {
   font-weight: 500;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
+  margin-top: 8px;
   padding: 12px 24px;
 }
 
