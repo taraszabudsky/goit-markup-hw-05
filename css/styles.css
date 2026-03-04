@@ -471,15 +471,16 @@ color: #404BBF;
 .footer .container {
   display: flex;
    align-items: baseline;
+   gap: 120px;
 }
 .footer .subscribe {
-  /* margin-left: auto; */
+  margin-left: auto;
 }
 .logo-footer-block {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .footer p{
   max-width: 264px;
@@ -502,7 +503,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-right: 80px;
+  /* margin-right: 80px; */
 }
 .social-media-title {
   font-weight: 500;
@@ -558,11 +559,6 @@ img {
   align-items: stretch; 
   gap: 24px;
 }
-
-.subscribe-title{
-font-size: 16px;
-padding: 0 0 20px 0;
-}
 .input-email{
   background-color: #2E2F42;
   border: 1px solid #FFFFFF;
@@ -610,10 +606,9 @@ padding: 0 0 20px 0;
   margin-left: 8px;   
   fill: currentColor; 
 }
-.subscribe-button {
-  background-color: #4D5AE5;
-  color: #FFFFFF;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.subscribe-title{
+font-size: 16px;
+padding: 0 0 20px 0;
 }
 .subscribe-button:hover,
 .subscribe-button:focus {
@@ -726,6 +721,7 @@ padding: 0 0 20px 0;
   box-sizing: border-box;
   font-size: 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #2E2F42;
 }
 .modal-form textarea{
   width: 100%;
@@ -737,7 +733,8 @@ padding: 0 0 20px 0;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 16px;
-  margin-bottom: 0;
+  margin-bottom: 8px;
+  color: #2E2F42;
 }
 .modal-form input:focus,
 .modal-form textarea:focus {
@@ -755,6 +752,7 @@ padding: 0 0 20px 0;
   opacity: 1;
 }
 .form-icon{
+  top: 50%;
   left: 0;
   position: absolute;     
   padding-top: 20px;                                      
@@ -762,15 +760,8 @@ padding: 0 0 20px 0;
   height: 50px;
   pointer-events: none;       
   fill: #2E2F42;
-          
-}
-.modal-form .form-icon {
-  position: absolute; 
-  top: 50%;
-  transform: translateY(-50%);
-  fill: #2E2F42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  pointer-events: none; 
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transform: translateY(-50%);   
 }
 .modal-form input:focus + .form-icon,
 .modal-form textarea:focus + .form-icon {
@@ -833,7 +824,7 @@ padding: 0 0 20px 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 input:checked + .checkbox-point {
-  background-color: #4D5AE5; 
+  background-color: #404bbf; 
   border-color: #4D5AE5;
 }
 .privacy-link {
