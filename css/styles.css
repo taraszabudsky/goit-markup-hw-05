@@ -471,7 +471,7 @@ color: #404BBF;
 .footer .container {
   display: flex;
    align-items: baseline;
-   gap: 120px;
+   gap: 80px;
 }
 .footer .subscribe {
   margin-left: auto;
@@ -609,6 +609,10 @@ img {
 .subscribe-title{
 font-size: 16px;
 padding: 0 0 20px 0;
+font-weight: 500;                              
+line-height: 1.5;                 
+letter-spacing: 0.02em;          
+color: #f4f4fd;                 
 }
 .subscribe-button:hover,
 .subscribe-button:focus {
@@ -693,10 +697,11 @@ padding: 0 0 20px 0;
 }
 .modal-form {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   font-size: 12px;
   color: #8E8F99;
 }
+
 .modal-title + .modal-form {
   margin-top: 16px;
 }
@@ -707,7 +712,6 @@ padding: 0 0 20px 0;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8E8F99;
-  margin-bottom: 4px;
 }
 .modal-form input {
   position: relative;
@@ -715,7 +719,6 @@ padding: 0 0 20px 0;
   height: 40px;
   padding-left: 42px; 
   padding-right: 12px;
-  border: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   box-sizing: border-box;
@@ -733,7 +736,7 @@ padding: 0 0 20px 0;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 16px;
-  margin-bottom: 8px;
+  /* margin-bottom: 16px; */
   color: #2E2F42;
 }
 .modal-form input:focus,
@@ -743,25 +746,24 @@ padding: 0 0 20px 0;
 }
 .modal-form input::placeholder {
   color: #aaa;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 1;
 }
 .modal-form textarea::placeholder {
   color: #aaa;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 1;
 }
 .form-icon{
-  top: 50%;
-  left: 0;
-  position: absolute;     
-  padding-top: 20px;                                      
-  width: 50px;
-  height: 50px;
-  pointer-events: none;       
+ position: absolute;
+  top: 65%;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  transform: translateY(-50%);
   fill: #2E2F42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  transform: translateY(-50%);   
+  pointer-events: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form input:focus + .form-icon,
 .modal-form textarea:focus + .form-icon {
@@ -775,7 +777,7 @@ padding: 0 0 20px 0;
   color: #8E8F99;  
   display: flex;
   align-items: center;
-  margin-bottom: 24px;          
+  margin-bottom: 16px;
 }
 .checkbox-privacy input:checked + .checkbox-point {
   background-color: #4D5AE5;
